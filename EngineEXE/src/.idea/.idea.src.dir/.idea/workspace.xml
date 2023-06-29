@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f048134b-9e68-47bc-8f23-1f7cf7776fcb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AIComponent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIComponent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectIncludes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/StudioSim/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vs/StudioSim/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioSim.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../StudioSim.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioSim.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../StudioSim.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imgui.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../imgui.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../res/scenes/MainScene.json" beforeDir="false" afterPath="$PROJECT_DIR$/../res/scenes/MainScene.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Actor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Actor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Animate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicIncludes.h" beforeDir="false" afterPath="$PROJECT_DIR$/BasicIncludes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Character.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Character.h" beforeDir="false" afterPath="$PROJECT_DIR$/Character.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CollisionManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CollisionManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Component.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContentBrowser.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContentBrowserUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ContentBrowserUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContentBrowserUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/ContentBrowserUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomMaths.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CustomMaths.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomMaths.h" beforeDir="false" afterPath="$PROJECT_DIR$/CustomMaths.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditorUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EditorUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditorUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/EditorUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EngineManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/EngineManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrameBuffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FrameBuffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameTime.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameTime.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grid.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Grid.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexBuffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/IndexBuffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InputComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/InputComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonLoader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/JsonLoader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonLoader.h" beforeDir="false" afterPath="$PROJECT_DIR$/JsonLoader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeyEvent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/KeyEvent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeyboardClass.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/KeyboardClass.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeyboardClass.h" beforeDir="false" afterPath="$PROJECT_DIR$/KeyboardClass.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LayerStack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LayerStack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Log.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/Log.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MouseClass.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MouseClass.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MouseClass.h" beforeDir="false" afterPath="$PROJECT_DIR$/MouseClass.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MouseEvent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MouseEvent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Observer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Observer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrthographicCamera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OrthographicCamera.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PathNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PathNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PerspectiveCamera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PerspectiveCamera.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhysicsComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PhysicsComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhysicsComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/PhysicsComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Quack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuackCallbacks.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/QuackCallbacks.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuackDataTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/QuackDataTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Renderer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Renderer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Scene.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scene.h" beforeDir="false" afterPath="$PROJECT_DIR$/Scene.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Shader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shader.h" beforeDir="false" afterPath="$PROJECT_DIR$/Shader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton.h" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Texture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Texture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Transform.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transform.h" beforeDir="false" afterPath="$PROJECT_DIR$/Transform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UILayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/UILayer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UIRenderer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/UIRenderer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UIWindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/UIWindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VertexArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VertexArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VertexBuffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VertexBuffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VertexBufferLayout.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VertexBufferLayout.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VertexBufferLayout.h" beforeDir="false" afterPath="$PROJECT_DIR$/VertexBufferLayout.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewportUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ViewportUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewportUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/ViewportUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorldOutlinerUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/WorldOutlinerUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/intermediates/x64/Debug/StudioSim.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../bin/intermediates/x64/Debug/StudioSim.exe.recipe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LBZaXe98HgtCjjIPvcpZP2hdN5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f048134b-9e68-47bc-8f23-1f7cf7776fcb" name="Changes" comment="" />
+      <created>1675346505244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675346505244</updated>
+      <workItem from="1675346511492" duration="14000" />
+      <workItem from="1675346565412" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
